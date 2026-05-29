@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Portfolio | Web Design Check Test</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#top">Campus Portfolio</a>
+    <nav class="nav" aria-label="メインメニュー">
+      <a href="#about">About</a>
+      <a href="#works">Works</a>
+      <a href="#point">Point</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero__text">
+        <p class="label">Web Design Final Check</p>
+        <h1>確認テストで作った<br>ポートフォリオページ</h1>
+        <p>
+          HTMLとCSSで作ったページに、GitHub PagesやOpen Processingで確認した内容も少し入れました。
+          まだ完璧ではないですが、見やすくまとめることを意識しました。
+        </p>
+        <a class="button" href="#works">作品を見る</a>
+      </div>
+      <div class="hero__visual" aria-label="ノートパソコンと制作メモのイメージ">
+        <div class="screen">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="memo memo--one">HTML</div>
+        <div class="memo memo--two">CSS</div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-title">
+        <p class="label">About</p>
+        <h2>自己紹介</h2>
+      </div>
+      <div class="profile">
+        <div>
+          <h3>Webページ制作の練習中</h3>
+          <p>
+            HTMLとCSSでページを作ることに加えて、作ったページを公開する方法や、
+            Processingを使ったかんたんな動きのある作品について確認しました。
+          </p>
+        </div>
+        <ul class="skill-list">
+          <li>GitHub Pagesで静的なWebページを公開できる</li>
+          <li>Open Processingで作品を作成、共有できる</li>
+          <li>setup() と draw() の違いを確認した</li>
+          <li>リファレンスを読む大切さを学んだ</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="works" class="section section--tint">
+      <div class="section-title">
+        <p class="label">Works</p>
+        <h2>作品紹介</h2>
+      </div>
+      <div class="work-card">
+        <div class="work-card__image">
+          <div class="mock-window">
+            <div class="mock-window__bar"></div>
+            <div class="mock-window__body">
+              <div class="photo-block"></div>
+              <div class="text-lines">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="work-card__body">
+          <p class="label">Portfolio Site</p>
+          <h3>作品名：My Favorite Page</h3>
+          <p>
+            Webページの公開方法と、Open Processingでの基本的なプログラムについてまとめたページです。
+            背景を1回だけ設定することや、毎フレーム円を描く処理などを見て、動く作品の作り方を確認しました。
+          </p>
+          <dl class="work-info">
+            <div>
+              <dt>使用技術</dt>
+              <dd>HTML / CSS</dd>
+            </div>
+            <div>
+              <dt>制作テーマ</dt>
+              <dd>確認テストのまとめページ</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section id="point" class="section">
+      <div class="section-title">
+        <p class="label">Point</p>
+        <h2>頑張った所・工夫した所</h2>
+      </div>
+      <div class="point-grid">
+        <article>
+          <h3>1. 内容を短くまとめた</h3>
+          <p>GitHub PagesやOpen Processingの説明を、長くなりすぎないように短めにまとめました。</p>
+        </article>
+        <article>
+          <h3>2. setup と draw</h3>
+          <p>setup() は最初に1回、draw() は何回も実行されることが分かるように書きました。</p>
+        </article>
+        <article>
+          <h3>3. すこし見やすくした</h3>
+          <p>文字がつまらないように余白を入れて、色も見づらくならないように気をつけました。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="label">Contact</p>
+      <h2>Thank you for viewing.</h2>
+      <p>確認テストの内容をもとに、分かったことを自分なりにまとめたページです。</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>&copy; 2026 Campus Portfolio</small>
+  </footer>
+</body>
+</html>
